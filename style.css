@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.container {
+    margin: 0 auto;
+    color: white;
+    width: 600px;
+    font-size: 18px;
+}
+
+h1,
+h3,
+textarea,
+.output {
+    color: white;
+    text-align: center;
+}
+
+textarea {
+    font-size: 18px;
+}
