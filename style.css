@@ -1,19 +1,16 @@
 body {
-    background-color: black;
-}
-
-.container {
-    margin: 0 auto;
-    color: white;
-    width: 600px;
-    font-size: 18px;
+    transition: background-color 0.5s ease;
 }
 
 h1,
-h3,
+h3 {
+    color: white;
+    text-align: center;
+}
+
 textarea,
 .output {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -24,4 +21,30 @@ textarea {
 input {
     width: 20px;
     height: 20px;
+}
+
+#textInput {
+    display: none;
+    /* hide input field by default */
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode label {
+    color: #fff;
+}
+
+.dark-mode .form-control {
+    background-color: #444;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    color: white;
+    width: 600px;
+    font-size: 18px;
 }
